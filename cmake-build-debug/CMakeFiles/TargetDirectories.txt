@@ -1,0 +1,3 @@
+/Users/VIET/Desktop/Learn C/Mock_Test/cmake-build-debug/CMakeFiles/Mock_Test.dir
+/Users/VIET/Desktop/Learn C/Mock_Test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/VIET/Desktop/Learn C/Mock_Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir

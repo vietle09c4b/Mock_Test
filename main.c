@@ -310,17 +310,19 @@ int main() {
     Disappear_Person = n - count_Fa;
     Number_Group = Number_Group + Disappear_Person;
 
-
     /* Xuất kết quả*/
     /* Copy giá trị từng group vào Group_Severity*/
+    /* Copy giá trị Severity vào chuỗi lây nhiễm có trong mảng a*/
     if(Count_Group_Fa ==1){
         for (s2 i =0; i< Count_Group_Fa; i++){
             Group_Severity[0]=Severity_arr_a;
         }
     }
+    /* Copy giá trị Severity vào nhóm có trong mảng a mà không có trong mảng b*/
     for(s2 i =Count_Group_Fa; i <(Count_Group_Fa+Count_F0_b); i++){
         Group_Severity[i] = Severity_F0_b;
     }
+    /* Copy giá trị Severity vào nhóm FX không xuất hiện trong cả 2 mảng nhập vào a và b*/
     for(s2 i =(Count_Group_Fa+Count_F0_b); i <(Number_Group); i++){
         Group_Severity[Count_Group_Fa+Count_F0_b] = Severity_Fx;
     }

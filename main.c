@@ -306,10 +306,10 @@ int main() {
     /* Tìm số lượng người xuất hiện trong mảng a mà không lặp lại*/
     s2 count_Fa = 0;
     fs_Count_Fa(array_merge, &count_Fa, &total_length ); /* 10 7 3 6 2 5 8 4 9*/
+    /* Nếu có n Fx không xuất hiện trong cả 2 mảng nhập vào a và b --> Có n group mới; Severity =0 */
     Disappear_Person = n - count_Fa;
     Number_Group = Number_Group + Disappear_Person;
-    /* Nếu toàn bộ Fx xuất hiện trong cả 2 mảng nhập vào a và b --> Không có Group mới; Severity =0*/
-    /* Nếu có tồn tại Fx không xuất hiện trong cả 2 mảng nhập vào a và b --> có Group mới; Severity =0*/
+
 
     /* Xuất kết quả*/
     /* Copy giá trị từng group vào Group_Severity*/
